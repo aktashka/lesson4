@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.worker {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
